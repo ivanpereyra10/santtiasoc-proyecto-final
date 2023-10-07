@@ -1,0 +1,45 @@
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 30px;
+
+    span {
+        color: #fafafa;
+        background-color: rgba(0, 91, 249, 0.853);
+        padding: 4px 15px;
+        border-style: solid;
+        border-radius: 8px;
+    }
+}
+
+.miBanner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/banner.avif);
+    background-size: cover;
+    padding: 70px;
+    color: black;
+
+    h1 {
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+}
+
+.button {
+    display: inline-block;
+    background-color: rgba(0, 91, 249, 0.853);
+    color: #fafafa;
+    padding: 7px 15px;
+    text-decoration: none;
+    margin-top: 10px;
+    border-style: solid;
+    border-radius: 10px;
+}

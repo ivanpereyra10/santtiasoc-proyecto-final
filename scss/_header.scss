@@ -1,0 +1,30 @@
+.miLogo {
+    width: 70px;
+}
+
+.miFondo {
+    background-color: black;
+    object-fit: cover;
+}
+
+.miLink:hover {
+    background-color: rgb(49, 49, 49);
+    border-radius: 5px;
+    color: #fafafa;
+}
+
+.nav-link {
+    font-size: 22px;
+    color: #fafafa;
+}
+
+.button {
+    background-color: rgba(0, 91, 249, 0.853);
+    color: #fafafa;
+    padding: 10px 30px;
+    text-decoration: none;
+    margin-top: 10px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
