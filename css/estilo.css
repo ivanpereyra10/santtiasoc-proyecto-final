@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/*BODY*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #444444;
+    background-color: whitesmoke;
+
+}
+
+
+/*BANNER*/
+
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 30px;
+}
+
+h2 span {
+    color: #fafafa;
+    background-color: rgba(0, 91, 249, 0.853);
+    padding: 4px 15px;
+    border-style: solid;
+    border-radius: 8px;
+}
+
+.miBanner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/banner.avif);
+    background-size: cover;
+    padding: 70px;
+    color: black;
+}
+
+.miBanner h1 {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.miBanner p {
+    font-size: 20px;
+}
+
+.button {
+    display: inline-block;
+    background-color: rgba(0, 91, 249, 0.853);
+    color: #fafafa;
+    padding: 7px 15px;
+    text-decoration: none;
+    margin-top: 10px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+
+/*HEADER*/
+
+.miLogo {
+    width: 70px;
+}
+
+.miFondo {
+    background-color: black;
+    object-fit: cover;
+}
+
+.miLink:hover {
+    background-color: rgb(49, 49, 49);
+    border-radius: 5px;
+    color: #fafafa;
+}
+
+.nav-link {
+    font-size: 22px;
+    color: #fafafa;
+}
+
+
+
+
+.button {
+
+    background-color: rgba(0, 91, 249, 0.853);
+    color: #fafafa;
+    padding: 10px 30px;
+    text-decoration: none;
+    margin-top: 10px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+
+/*SERVICIOS*/
+
+h5{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 15px
+}
+
+.btnColor {
+    background-color: rgba(0, 91, 249, 0.853);
+    color: #fafafa;
+    font-size: 15px
+}
+
+.btnColor:hover {
+    background-color: blue;
+    color: #fafafa;
+
+}
+
+
+
+/*CONTACTO*/
+.contacto img {
+    width: 80%;
+    border-radius: 50px;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.img-contacto-phone{
+    width: 50%;
+    margin-top: 10%;
+    margin-left: 30%;
+}
+
+.contacto-form {
+    margin-top: 10%;
+    margin-right: 20%;
+    margin-bottom: 2%;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+
+
+.contacto-form label {
+    padding-top: 2%;
+    padding-bottom: 5px;
+}
+
+.contacto-form textarea {
+    width: 100%;
+    border-radius: 7px;
+}
+
+@media (max-width: 1040px) {
+    .img-contacto img {
+        display: none;
+    }
+    .contacto-form {
+        margin-top: 10%;
+        margin-right: 5%;
+        margin-left: 7%;
+        margin-bottom: 2%;
+        color: rgb(255, 255, 255);
+        text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.621);
+        background-color: rgb(26, 24, 24);
+        padding: 4%;
+        border-radius: 10px;
+    }
+
+    .img-contacto-phone{
+        display: none;
+    }
+
+    
+}
+
+.botones-contacto button {
+    background-color: rgba(0, 91, 249, 0.853);
+    color: white;
+    font-weight: bold;
+    width: 90%;
+    padding: 1.5%;
+    border-radius: 10px;
+    font-size: medium;
+    margin-left: 5%;
+    border: none;
+}
+
+.botones-contacto button:hover {
+    background-color: blue;
+    color: #fafafa;
+
+}
+
+
+
+@media (max-width: 1040px) {
+    .img-contacto img {
+        display: none;
+    }
+
+    .img-contacto-phone{
+        display: none;
+    }
+}
+
+
+
+/* FOOTER  */
+
+footer {
+    background-color: black;
+    object-fit: cover;
+    color: white;
+}
+
+footer ul li a {
+    color: white;
+}
+
+.mapa{
+    width: 80%;
+    border-radius: 10px;
+    margin-left: 10%;
+}
+
+.texto{
+    text-align: center;
+    display: inline-block;
+    background-color: rgba(212, 212, 212, 0.853);
+    color: black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    
+}
